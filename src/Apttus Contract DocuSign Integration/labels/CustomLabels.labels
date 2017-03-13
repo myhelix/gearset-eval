@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>EmailBodyText</fullName>
+        <categories>EmailText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default email body text for Apttus DocuSign CLM connector</shortDescription>
+        <value>Request for eSignatures. Please review and sign.</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectText</fullName>
+        <categories>EmailText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default email subject text for Apttus DocuSign CLM connector</shortDescription>
+        <value>Request for eSignatures</value>
+    </labels>
+    <labels>
+        <fullName>SystemErrorMustHaveDefaultRecipient</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Internal Error</shortDescription>
+        <value>Add default recipients to Agreement</value>
+    </labels>
+    <labels>
+        <fullName>SystemInternalError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Internal Error</shortDescription>
+        <value>System Internal Error</value>
+    </labels>
+</CustomLabels>

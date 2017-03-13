@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Assignment of Copyrights and Patents</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Assignment of Copyrights and Patents</value>
+    </caseValues>
+    <fields>
+        <help><!-- Records the author(s) of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical. --></help>
+        <label><!-- Author(s) --></label>
+        <name>Author_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copyright/Patent Assignment --></label>
+        <name>Copyright_Patent_Assignment__c</name>
+        <relationshipLabel><!-- Assignment of Copyrights and Patents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Records the I.D. or patent application numbers of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical. --></help>
+        <label><!-- I.D./Application Number --></label>
+        <name>I_D_Application_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Records the title of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical. --></help>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

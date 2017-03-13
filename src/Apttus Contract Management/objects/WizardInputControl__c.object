@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>The individual question, instruction statements and associated field attributes</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Signifies that the Input control within a step is Active. Setting Wizard Design as Active automatically activates the included input controls.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Signifies that the Input control within a step is Active. Setting Wizard Design as Active automatically activates the included input controls.</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input controls</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input Controls</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Category 1</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContextObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Business object context, used to filter and align inputs within steps and wizard designs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Business object context, used to filter and align inputs within steps and wizard designs.</inlineHelpText>
+        <label>Context Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContextType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of context, whether its All or Object. 
+All means that this input can be used in any step design. 
+Object means that this input can be used only in aligned (same object) step design.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of context, whether its All or Object. 
+All means that this input can be used in any step design. 
+Object means that this input can be used only in aligned (same object) step design.</inlineHelpText>
+        <label>Context Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Object</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DefaultResponse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Place a desired default response value here or leave blank</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Place a desired default response value here or leave blank</inlineHelpText>
+        <label>Default Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For the user to understand the intended use of the Input Control</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For the user to understand the intended use of the Input Control</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</inlineHelpText>
+        <label>Field Class</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wizard Input Field</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Object Field</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Name of the salesforce object field the question applies to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Name of the salesforce object field the question applies to</inlineHelpText>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FieldType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Data type of the field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data type of the field</inlineHelpText>
+        <label>Field Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Date</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Date/Time</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Picklist</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Text Area</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>URL</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GhostResponse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Place a desired runtime information statement here or leave blank.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Place a desired runtime information statement here or leave blank.</inlineHelpText>
+        <label>Ghost Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HorizontalSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sequence of inputs in a tabular input group from left to right</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sequence of inputs in a tabular input group from left to right</inlineHelpText>
+        <label>Horizontal Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InterfaceDefinition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The definition of the data type entered in by the designer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The definition of the data type entered in by the designer.</inlineHelpText>
+        <label>Interface Definition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>ResponseDataType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Text Entry</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Picklist Dropdown</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Picklist Radio Button</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Currency &lt;Type, Chars, Dec&gt;</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Number &lt;Chars, Dec&gt;</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Date &lt;Format&gt;</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Percent &lt;Dec&gt;</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Expression Formula</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Text</controllingFieldValue>
+                <valueName>Text Entry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Text</controllingFieldValue>
+                <controllingFieldValue>List</controllingFieldValue>
+                <controllingFieldValue>Currency</controllingFieldValue>
+                <controllingFieldValue>Number</controllingFieldValue>
+                <controllingFieldValue>Date</controllingFieldValue>
+                <controllingFieldValue>Percent</controllingFieldValue>
+                <controllingFieldValue>Concatenation</controllingFieldValue>
+                <valueName>Expression Formula</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Picklist Dropdown</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Picklist Radio Button</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Currency</controllingFieldValue>
+                <valueName>Currency &lt;Type, Chars, Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Number</controllingFieldValue>
+                <valueName>Number &lt;Chars, Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Date</controllingFieldValue>
+                <valueName>Date &lt;Format&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Percent</controllingFieldValue>
+                <valueName>Percent &lt;Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Checkbox</controllingFieldValue>
+                <valueName>Checkbox</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional field for use in search and selection</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional field for use in search and selection</inlineHelpText>
+        <label>Keywords</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The label for the input control.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The label for the input control.</inlineHelpText>
+        <label>Label</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObjectName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the object that qualifies the field the question resolves</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the object that qualifies the field the question resolves</inlineHelpText>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Precedence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Denotes what sequence should proceed this input in order to appear. In the form (1) (1 OR 2) (1 AND 2) etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes what sequence should proceed this input in order to appear. In the form (1) (1 OR 2) (1 AND 2) etc.</inlineHelpText>
+        <label>Precedence</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The question or instruction statement that is used to direct the end user when completing the wizard after setup.  Defaults to Input Label</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The question or instruction statement that is used to direct the end user when completing the wizard after setup.  Defaults to Input Label</inlineHelpText>
+        <label>Question/Instruction</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ReadOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Specifies if an input control value can be edited by the runtime user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies if an input control value can be edited by the runtime user</inlineHelpText>
+        <label>Read Only</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Repeatable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates this is a repeatable question.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this is a repeatable question.</inlineHelpText>
+        <label>Repeatable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates that an input value is required for the end user to continue the wizard</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that an input value is required for the end user to continue the wizard</inlineHelpText>
+        <label>Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ResponseDataType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The data type of the response by the end user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The data type of the response by the end user.</inlineHelpText>
+        <label>Response Data Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Date</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Concatenation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Response__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of values for making determinations on.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of values for making determinations on.</inlineHelpText>
+        <label>Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RuntimeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe what the runtime user can see as a help or instruction description of this input control</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes what the runtime user can see as a help or instruction description of this input control.</inlineHelpText>
+        <label>Runtime Help Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sequence in which this input entry should be displayed during runtime</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sequence in which this input entry should be displayed during runtime</inlineHelpText>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subcategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Dependent on the category field, whose list values shall allow users to search, find, and select Input Controls</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Dependent on the category field, whose list values shall allow users to search, find, and select Input Controls</inlineHelpText>
+        <label>Subcategory</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Sub-Category 1</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Default</controllingFieldValue>
+                <valueName>Default</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Transient__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Input added to a Step is in Transient state until the Step is saved.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Input added to a Step is in Transient state until the Step is saved.</inlineHelpText>
+        <label>Transient</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Validation2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of values to be displayed during runtime.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of values to be displayed during runtime.</inlineHelpText>
+        <label>Validation Input</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Validation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of values to be displayed during runtime.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of values to be displayed during runtime.</inlineHelpText>
+        <label>Validation Input (Deprecated)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Version__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Version number (counter) of input control design. This identifies the input control uniquely in the chronology of creation.</description>
+        <displayFormat>{0000000}.{000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Version number (counter) of input control design. This identifies the input control uniquely in the chronology of creation.</inlineHelpText>
+        <label>Version</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>VerticalSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sequence of input in an input group rendered from top to bottom</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sequence of input in an input group rendered from top to bottom</inlineHelpText>
+        <label>Vertical Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WizardInputGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the input group that this input control belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the input group that this input control belongs to</inlineHelpText>
+        <label>Wizard Input Group</label>
+        <referenceTo>WizardInputGroup__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WizardRulesetId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to ruleset for input expression</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to ruleset for input expression</inlineHelpText>
+        <label>Wizard Ruleset</label>
+        <referenceTo>WizardRuleset__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WizardStepId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the step this input control belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the step this input control belongs to</inlineHelpText>
+        <label>Wizard Step</label>
+        <referenceTo>WizardStep__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WizardStep__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Wizard Step this Input belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wizard Step this Input belongs to</inlineHelpText>
+        <label>Wizard Step</label>
+        <referenceTo>WizardStep__c</referenceTo>
+        <relationshipName>Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Wizard Input Control (Deprecated)</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>ObjectName__c</columns>
+        <columns>FieldName__c</columns>
+        <columns>Active__c</columns>
+        <columns>Required__c</columns>
+        <columns>Sequence__c</columns>
+        <columns>ContextObject__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Input Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Wizard Input Controls</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Question__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Subcategory__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Keywords__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>WizardStepId__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Question__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Subcategory__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Keywords__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>WizardStepId__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Question__c</searchFilterFields>
+        <searchFilterFields>Category__c</searchFilterFields>
+        <searchFilterFields>Subcategory__c</searchFilterFields>
+        <searchFilterFields>Keywords__c</searchFilterFields>
+        <searchFilterFields>Description__c</searchFilterFields>
+        <searchFilterFields>Active__c</searchFilterFields>
+        <searchFilterFields>WizardStepId__c</searchFilterFields>
+        <searchResultsAdditionalFields>Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Subcategory__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Keywords__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>WizardStepId__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

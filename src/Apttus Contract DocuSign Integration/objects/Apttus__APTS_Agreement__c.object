@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CheckESignatureStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Check eSignature Status</description>
+        <externalId>false</externalId>
+        <formula>IF(
+	AND(
+	   ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;),
+	   ISPICKVAL(Apttus__Status__c,&quot;Other Party Signatures&quot;)
+	),
+HYPERLINK(&quot;/apex/Apttus_DocuApi__DocuSignEnvStatusByEnvId?envelopeparentid=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__CheckStatus&quot;,&quot;Check eSignature Status&quot;), &quot;_self&quot;),
+NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Check eSignature Status</inlineHelpText>
+        <label>Check eSignature Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSignEnvelopeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Apttus - DocuSign envelope Id to which this agreement is associated to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Apttus - DocuSign envelope Id to which this agreement is associated to.</inlineHelpText>
+        <label>DocuSign Envelope Id</label>
+        <referenceTo>Apttus_DocuApi__DocuSignEnvelope__c</referenceTo>
+        <relationshipLabel>Agreements</relationshipLabel>
+        <relationshipName>Agreements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecallESignatureRequest__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Recall E-Signature request</description>
+        <externalId>false</externalId>
+        <formula>IF(
+	AND(
+           ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+           ISPICKVAL(Apttus__Status__c,&quot;Other Party Signatures&quot;) 
+	   ),
+HYPERLINK(&quot;/apex/Apttus_DocuApi__DocuSignRecallEnvByEnvId?envelopeparentid=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__RecallEnvelope&quot;,&quot;Recall E-Signature Document&quot;), &quot;_self&quot;),
+NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Recall E-Signature request</inlineHelpText>
+        <label>Recall E-Signature Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SendForESignature__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+  OR(
+    ISPICKVAL(Apttus__Status_Category__c,&quot;In Authoring&quot;), 
+    (AND(ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+         ISPICKVAL(Apttus__Status__c,&quot;Ready for Signatures&quot;)
+        )
+     ), 
+     (AND(ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+          ISPICKVAL(Apttus__Status__c,&quot;Signature Declined&quot;)
+         )
+      )
+    ),
+  HYPERLINK(&quot;/apex/Apttus_CMDSign__CMDocuSignCreateEnvelope?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__eSignature&quot;,&quot;Send For eSignatures&quot;), &quot;_self&quot;), 
+  NULL 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Send For eSignature</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ViewESignatureDocument__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Correct E-Signature document</description>
+        <externalId>false</externalId>
+        <formula>IF(
+	AND(
+           ISPICKVAL(Apttus__Status_Category__c,&quot;In Signatures&quot;), 
+           ISPICKVAL(Apttus__Status__c,&quot;Other Party Signatures&quot;) 
+	),
+HYPERLINK(&quot;/apex/Apttus_DocuApi__DocuSignViewExistingEnvelope?envelopeparentid=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_DocuApi__ViewEnvelope&quot;,&quot;Correct E-Signature Document&quot;), &quot;_blank&quot;),
+NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Correct E-Signature document</inlineHelpText>
+        <label>Correct E-Signature Document</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

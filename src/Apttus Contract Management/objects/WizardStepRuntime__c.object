@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A runtime instance of a wizard step design.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>NextPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the next page if its not a Wizard Step (URL, SUBMIT, ACKNOWLEDGEMENT)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the next page if its not a Wizard Step (URL, SUBMIT, ACKNOWLEDGEMENT)</inlineHelpText>
+        <label>Next Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NextWizardRuntimeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Not supported yet. Identifies the next wizard runtime during navigation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Not supported yet. Identifies the next wizard runtime during navigation</inlineHelpText>
+        <label>Next Wizard Runtime</label>
+        <referenceTo>WizardRuntime__c</referenceTo>
+        <relationshipName>WizardStepRuntime2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NextWizardStepRuntimeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Look up to wizard step runtime</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Look up to wizard step runtime</inlineHelpText>
+        <label>Next Wizard Step Runtime</label>
+        <referenceTo>WizardStepRuntime__c</referenceTo>
+        <relationshipName>WizardStepRuntime1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WizardRuntimeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference/Lookup to wizard runtime this step belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference/Lookup to wizard runtime this step belongs to</inlineHelpText>
+        <label>Wizard Runtime</label>
+        <referenceTo>WizardRuntime__c</referenceTo>
+        <relationshipName>WizardStepRuntime3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WizardStepId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference/Lookup to Wizard Step design from which this runtime step is instantiated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference/Lookup to Wizard Step design from which this runtime step is instantiated</inlineHelpText>
+        <label>Wizard Step</label>
+        <referenceTo>WizardStep__c</referenceTo>
+        <relationshipName>WizardStepRuntime</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Wizard Step Runtime (Deprecated)</label>
+    <nameField>
+        <label>Wizard Step Runtime Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Wizard Step Runtime</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>WizardStepId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>WizardRuntimeId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NextWizardRuntimeId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NextWizardStepRuntimeId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NextPage__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WizardStepId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WizardRuntimeId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NextWizardRuntimeId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NextWizardStepRuntimeId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NextPage__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>WizardStepId__c</searchFilterFields>
+        <searchFilterFields>WizardRuntimeId__c</searchFilterFields>
+        <searchFilterFields>NextWizardRuntimeId__c</searchFilterFields>
+        <searchFilterFields>NextWizardStepRuntimeId__c</searchFilterFields>
+        <searchFilterFields>NextPage__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

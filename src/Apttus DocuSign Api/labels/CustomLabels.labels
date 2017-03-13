@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Action</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>AddAll</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add All</shortDescription>
+        <value>Add All</value>
+    </labels>
+    <labels>
+        <fullName>AddAnotherUserButtonLabel</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddAnotherUserButtonLabel</shortDescription>
+        <value>Add Another User</value>
+    </labels>
+    <labels>
+        <fullName>AddRecipient</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Recipient(s)</shortDescription>
+        <value>Select Recipient(s)</value>
+    </labels>
+    <labels>
+        <fullName>AddRecipientsForESignatures</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send for eSignature: Add Recipients</shortDescription>
+        <value>Send for eSignature: Add Recipients</value>
+    </labels>
+    <labels>
+        <fullName>AddSigningGroupUsersStatus</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddSigningGroupUsersStatus</shortDescription>
+        <value>Adding list users to DocuSign...</value>
+    </labels>
+    <labels>
+        <fullName>AddToList</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add to List</shortDescription>
+        <value>Add to List</value>
+    </labels>
+    <labels>
+        <fullName>AgreeToTermsAndConditions</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Agree to terms and conditions</shortDescription>
+        <value>I agree to DocuSign Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>AttachmentSizeLimitExceeded</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AttachmentSizeLimitExceeded</shortDescription>
+        <value>Please select an attachment with size less than 12,000 KB</value>
+    </labels>
+    <labels>
+        <fullName>AutoProvisionUserDisabled</fullName>
+        <categories>ERROR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto Provision User Disabled</shortDescription>
+        <value>Auto provisoining of DocuSign users is not available. Please try again and if the problem persists contact your system admin.</value>
+    </labels>
+    <labels>
+        <fullName>AvailableRecipientRecordTypes</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available Recipient Record Types</shortDescription>
+        <value>Available Recipient Record Types</value>
+    </labels>
+    <labels>
+        <fullName>BackTo</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back to parent Object</shortDescription>
+        <value>Back To</value>
+    </labels>
+    <labels>
+        <fullName>BlankCompanyName</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BlankCompanyName</shortDescription>
+        <value>Company name cannot be blank. Please make sure your Salesforce user account&apos;s company name field has a value.</value>
+    </labels>
+    <labels>
+        <fullName>BlankEmailAddress</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Blank email address</shortDescription>
+        <value>Please enter email address</value>
+    </labels>
+    <labels>
+        <fullName>BlankPassword</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Blank password</shortDescription>
+        <value>Please enter password</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CompanyName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Name</shortDescription>
+        <value>Company Name</value>
+    </labels>
+    <labels>
+        <fullName>Continue</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>CreateAccount</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Account</shortDescription>
+        <value>Create Account</value>
+    </labels>
+    <labels>
+        <fullName>CreateNewDSAccount</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create new DS account</shortDescription>
+        <value>Create a New DocuSign Account</value>
+    </labels>
+    <labels>
+        <fullName>CreatedDate</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreatedDate</shortDescription>
+        <value>Created Date</value>
+    </labels>
+    <labels>
+        <fullName>Default</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default</shortDescription>
+        <value>Default</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>DoNotHaveValidEmail</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected user/ contact does not have valid email address</shortDescription>
+        <value>ERROR: Selected user/ contact does not have valid email address</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountActivationMessage</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountActivationMessage</shortDescription>
+        <value>Action Required: Your account has been provisioned and now needs to be activated. Please go to your email to find the DocuSign account activation notification and follow the steps to activate your account. Once the account activation is complete, please login on this screen to complete the account creation process.</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountAlreadySetupMessage</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountAlreadySetupMessage</shortDescription>
+        <value>There is an existing DocuSign account set up in this org. If you wish to log-on to some other DocuSign account, please enter the email, password and the account id for that account and click login.</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountCreationError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSign Account Creation Error</shortDescription>
+        <value>ERROR: DocuSign user account creation error</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountCreationSuccess</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSign Account Creation Success</shortDescription>
+        <value>DocuSign account created successfully</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountEmailMismatchError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountEmailMismatchError</shortDescription>
+        <value>ERROR: There is a mismatch between email id setup for your Salesforce user and your DocuSign account user email. Correct the mismatch and try again</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountId</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountId</shortDescription>
+        <value>DocuSign Account Id</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountInfo</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountInfo</shortDescription>
+        <value>DocuSign account:</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountLoginError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountLoginError</shortDescription>
+        <value>There is an issue with your DocuSign user account information (login / password)</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountLoginSuccess</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountLoginSuccess</shortDescription>
+        <value>Your DocuSign user account has been registered successfully</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAccountNotAvailableError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAccountNotAvailableError</shortDescription>
+        <value>No active DocuSign account available for this action. Please contact your system administrator for further assistance.</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignAdminUserNotFoundError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignAdminUserNotFoundError</shortDescription>
+        <value>DocuSign Admin user Not Found</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignEnvAddDefaultRecipient</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Default Recipient for parent object name</shortDescription>
+        <value>Add Default Recipient</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignEnvStatusByEnvParentId</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Getting eSignature status from DocuSign</shortDescription>
+        <value>Getting eSignature status from DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignEnvelopeCreateRequestError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSign Envelope Create Request Error</shortDescription>
+        <value>Your request could not be completed. Try again and contact your support team, if the error persists.</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeAddAnotherRecipient</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeAddAnotherRecipient</shortDescription>
+        <value>Add Another Recipient</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeAddAttachments</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeAddAttachments</shortDescription>
+        <value>Add Attachment(s)</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeAddRecipients</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeAddRecipients</shortDescription>
+        <value>Add Recipient(s)</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeAdditionalDetails</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeAdditionalDetails</shortDescription>
+        <value>Additional Details</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeBack</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeBack</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeCancel</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeCancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeFileName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeFileName</shortDescription>
+        <value>File Name</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeFinalize</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeFinalize</shortDescription>
+        <value>Finalize In DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeLastModified</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeLastModified</shortDescription>
+        <value>Last Modified</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRecipientEmail</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRecipientEmail</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRecipientName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRecipientName</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRecipientOrder</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRecipientOrder</shortDescription>
+        <value>Routing Order</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRecipientRole</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRecipientRole</shortDescription>
+        <value>Role Name</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRecipientSignerType</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRecipientSignerType</shortDescription>
+        <value>Signer Type</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeRelationship</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeRelationship</shortDescription>
+        <value>Relationship</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeSearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeSearch</shortDescription>
+        <value>Search For Recipients</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeSendForSignature</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeSendForSignature</shortDescription>
+        <value>Send For eSignature</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignManageEnvelopeSize</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignManageEnvelopeSize</shortDescription>
+        <value>Size (kB)</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignMaxDocumentSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot select more than 30 documents for eSignature</shortDescription>
+        <value>ERROR: Cannot select more than 30 documents for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignMaxRecipientSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot select more than 50 recipients for eSignature</shortDescription>
+        <value>ERROR: Cannot select more than 50 recipients for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignNoAttachment</fullName>
+        <categories>Error Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignNoAttachment</shortDescription>
+        <value>No Attachments Selected</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignNoRecipientSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignNoRecipientSelected</shortDescription>
+        <value>No Recipients Selected</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignPassword</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignPassword</shortDescription>
+        <value>DocuSign Password</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignRecallEnvelope</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignRecallEnvelope</shortDescription>
+        <value>Recall Envelope</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignRecallReasonDefault</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignRecallReasonDefault</shortDescription>
+        <value>has recalled this envelope</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignRecipientError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignRecipientError</shortDescription>
+        <value>Error Adding Recpients</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignSend</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send for eSignature</shortDescription>
+        <value>Send for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignServerInternalError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSign Server Internal Error</shortDescription>
+        <value>DocuSign Server Internal Error: Call support with error number:</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignTagSend</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview in DocuSign</shortDescription>
+        <value>Preview in DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignUserName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignUserName</shortDescription>
+        <value>DocuSign Login</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignUserisInactiveError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignUserisInactiveError</shortDescription>
+        <value>ERROR: There was an issue sending this envelope due to your user account status. Please check your email for the account activation notification and resend this envelope once your DocuSign account has been activated.</value>
+    </labels>
+    <labels>
+        <fullName>DocumentDownloadError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR: While downloading completed document</shortDescription>
+        <value>ERROR: While downloading completed document</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>EmailBody</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Body Header</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>EmailBodyPlaceholder</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailBodyPlaceholder</shortDescription>
+        <value>Type email content here....</value>
+    </labels>
+    <labels>
+        <fullName>EmailBodyText</fullName>
+        <categories>EmailText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default email body text for DocuSign recipient email</shortDescription>
+        <value>Sent to you by: [FirstName] [LastName] [Email] with the DocuSign Electronic Signature Service
+
+Please review and electronically sign this request using the link below. 
+
+Thank you, 
+[FirstName] [LastName] [Email]</value>
+    </labels>
+    <labels>
+        <fullName>EmailContent</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email content</shortDescription>
+        <value>Email content</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubject</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectPlaceholder</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailSubjectPlaceholder</shortDescription>
+        <value>Subject Title</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectText</fullName>
+        <categories>EmailText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default email subject for DocuSign recipient email</shortDescription>
+        <value>Documents for your eSignature</value>
+    </labels>
+    <labels>
+        <fullName>ErrorHeader</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>ExpirationPeriodText1</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpirationPeriodText1</shortDescription>
+        <value>Expire request in</value>
+    </labels>
+    <labels>
+        <fullName>ExpirationPeriodText2</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpirationPeriodText2</shortDescription>
+        <value>day(s): If sent today, it will expire on</value>
+    </labels>
+    <labels>
+        <fullName>ExpirationSectionHeader</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpirationSectionHeader</shortDescription>
+        <value>EXPIRATION</value>
+    </labels>
+    <labels>
+        <fullName>ExpirationWarningText1</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpirationWarningText1</shortDescription>
+        <value>Warn signers</value>
+    </labels>
+    <labels>
+        <fullName>ExpirationWarningText2</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExpirationWarningText2</shortDescription>
+        <value>day(s) before request expires</value>
+    </labels>
+    <labels>
+        <fullName>FileName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File name</shortDescription>
+        <value>File name</value>
+    </labels>
+    <labels>
+        <fullName>FirstName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>HasExistingDocuSignUserAccount</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HasExistingDocuSignUserAccount</shortDescription>
+        <value>This org has an existing DocuSign User account. There can only be one DocuSign admin user account configured at a time, which will be used for all the Apttus-DocuSign transactions. If you wish to switch to a different DocuSign account, please delete the existing DocuSign User entry by going to the DocuSignUser tab and then login to the account you wish to switch to from this page. Also, before switching to another DocuSign account, please ensure that there are no pending envelope updates for the existing DocuSign user account.</value>
+    </labels>
+    <labels>
+        <fullName>Help</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help</shortDescription>
+        <value>Help</value>
+    </labels>
+    <labels>
+        <fullName>Home</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce.com Home</shortDescription>
+        <value>Home</value>
+    </labels>
+    <labels>
+        <fullName>ImageTitleDown</fullName>
+        <categories>Image Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ImageTitleDown</shortDescription>
+        <value>Down</value>
+    </labels>
+    <labels>
+        <fullName>ImageTitleUp</fullName>
+        <categories>Image Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Image Title Up</shortDescription>
+        <value>Up</value>
+    </labels>
+    <labels>
+        <fullName>IncludeAssociatedAttachments</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include associated attachments</shortDescription>
+        <value>Include Associated attachments</value>
+    </labels>
+    <labels>
+        <fullName>InvalidRoutingOrder</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Routing Order</shortDescription>
+        <value>Please enter a valid routing order</value>
+    </labels>
+    <labels>
+        <fullName>LastName</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>ListOfAttachmentsForeSignature</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>List of attachments to merge for eSignature</shortDescription>
+        <value>List of attachments to merge for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>Login</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login</shortDescription>
+        <value>Log in</value>
+    </labels>
+    <labels>
+        <fullName>LogintoExistingDSAccount</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Log into existing DS Account</shortDescription>
+        <value>Log in to your existing DocuSign account</value>
+    </labels>
+    <labels>
+        <fullName>ManageRecipients</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select recipient(s)</shortDescription>
+        <value>Select recipient(s)</value>
+    </labels>
+    <labels>
+        <fullName>MergeFieldEvaluationStatus</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MergeFieldEvaluationStatus</shortDescription>
+        <value>Evaluating....</value>
+    </labels>
+    <labels>
+        <fullName>MergeOrder</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge Order</shortDescription>
+        <value>Merge Order</value>
+    </labels>
+    <labels>
+        <fullName>MoveDown</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MoveDown</shortDescription>
+        <value>MoveDown</value>
+    </labels>
+    <labels>
+        <fullName>MoveUp</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MoveUp</shortDescription>
+        <value>MoveUp</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>NoAttachmentsSelected</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No attachments selected.</shortDescription>
+        <value>No attachments selected.</value>
+    </labels>
+    <labels>
+        <fullName>NoAttachmentsfound</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No attachments found.</shortDescription>
+        <value>No attachments available for eSignature. Add an attachment before initiating eSignature request.</value>
+    </labels>
+    <labels>
+        <fullName>NoDefaultDocumentSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Must Select Default Document Error Message</shortDescription>
+        <value>No attachments available for eSignature. Add an attachment before initiating eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>NoDefaultMultiRecipientSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Must Select Default Recipient Error Message</shortDescription>
+        <value>Add one or more recipients in the eSignature default recipient list before initiating eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>NoDefaultRecipientAndDocument</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Default Recipient Error Message</shortDescription>
+        <value>Select default eSignature recipient before initiating eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>NoDefaultRecipientSelected</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Default Recipient Error Message</shortDescription>
+        <value>Select default eSignature recipient before initiating eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>NoEnvelopeAvailableError</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>noEnvelopeAvailableError</shortDescription>
+        <value>This eSignature request no longer exists on the DocuSign server.</value>
+    </labels>
+    <labels>
+        <fullName>NoEnvelopesAssociatedWithObjectError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoEnvelopesAssociatedWithObjectError</shortDescription>
+        <value>There are no valid e-Signature requests found for the selected object</value>
+    </labels>
+    <labels>
+        <fullName>NoParentId</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No parent object ID</shortDescription>
+        <value>ERROR: No parent object ID</value>
+    </labels>
+    <labels>
+        <fullName>NonApttusAutoProvisionUserDisabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Non Apttus Account Auto Provision User Disabled</shortDescription>
+        <value>Auto provisioning of DocuSign users is not available. Please contact your system admin.</value>
+    </labels>
+    <labels>
+        <fullName>NotValidDocuSignUser</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not a valid DocuSign user</shortDescription>
+        <value>Not a valid DocuSign user</value>
+    </labels>
+    <labels>
+        <fullName>Number</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number</shortDescription>
+        <value>Number</value>
+    </labels>
+    <labels>
+        <fullName>Order</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>Password</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>PleaseAgree</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please agree</shortDescription>
+        <value>Please agree to terms and conditions</value>
+    </labels>
+    <labels>
+        <fullName>Preview</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Preview</value>
+    </labels>
+    <labels>
+        <fullName>PreviewPageSubTitle</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Following request will be submitted for eSignature.</shortDescription>
+        <value>Following request will be submitted for eSignature.</value>
+    </labels>
+    <labels>
+        <fullName>PreviewPageTitle</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Following request will be submitted for eSignature.</shortDescription>
+        <value>Following request will be submitted for eSignature.</value>
+    </labels>
+    <labels>
+        <fullName>Previous</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingDocuments</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing request</shortDescription>
+        <value>Processing request</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingDocumentsHeader</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing eSignature request</shortDescription>
+        <value>Processing eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingDone</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing completed successfully</shortDescription>
+        <value>Processing completed successfully</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingDoneWithError</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing completed with error</shortDescription>
+        <value>Processing completed with error</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingRequest</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing request</shortDescription>
+        <value>Processing request</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingRequestDone</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing completed</shortDescription>
+        <value>Processing completed</value>
+    </labels>
+    <labels>
+        <fullName>RecallEnvelopeHeader</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recall Envelope Header</shortDescription>
+        <value>Recall Envelope</value>
+    </labels>
+    <labels>
+        <fullName>RecallEnvelopeMessage</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallEnvelopeMessage</shortDescription>
+        <value>Are you sure you want to recall this envelope?</value>
+    </labels>
+    <labels>
+        <fullName>RecallEnvelopeNo</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallEnvelopeNo</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>RecallEnvelopeSuccessfulMessage</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallEnvelopeSuccessfulMessage</shortDescription>
+        <value>The envelope has successfully been recalled</value>
+    </labels>
+    <labels>
+        <fullName>RecallEnvelopeYes</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallEnvelopeYes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>RecallReason</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecallReason</shortDescription>
+        <value>Recall Reason....</value>
+    </labels>
+    <labels>
+        <fullName>RecipientListToolTip</fullName>
+        <categories>ToolTip</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecipientListToolTip</shortDescription>
+        <value>The row of the recipient indicates where they will sign in the document</value>
+    </labels>
+    <labels>
+        <fullName>RecipientRecordTypeList</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available DocuSign Default Recipient Record Types</shortDescription>
+        <value>Available DocuSign Default Recipient Record Types</value>
+    </labels>
+    <labels>
+        <fullName>RecipientType</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recipient Type</shortDescription>
+        <value>Recipient Type</value>
+    </labels>
+    <labels>
+        <fullName>RecipientsAndRouting</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recipients and routing</shortDescription>
+        <value>Recipients and routing</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeName</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Type Name</shortDescription>
+        <value>Record Type Name.</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeOfNewRecord</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Type Of New Record</shortDescription>
+        <value>Record Type of new record</value>
+    </labels>
+    <labels>
+        <fullName>Relationship</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Relationship</shortDescription>
+        <value>Relationship</value>
+    </labels>
+    <labels>
+        <fullName>ReminderDelayText1</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderDelayText1</shortDescription>
+        <value>Send a reminder to signers</value>
+    </labels>
+    <labels>
+        <fullName>ReminderDelayText2</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderDelayText2</shortDescription>
+        <value>day(s) after receipt</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFrequencyText1</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderFrequencyText1</shortDescription>
+        <value>Continue to send reminders every</value>
+    </labels>
+    <labels>
+        <fullName>ReminderFrequencyText2</fullName>
+        <categories>Text Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderFrequencyText2</shortDescription>
+        <value>day(s)</value>
+    </labels>
+    <labels>
+        <fullName>ReminderSectionHeader</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReminderSectionHeader</shortDescription>
+        <value>REMINDERS</value>
+    </labels>
+    <labels>
+        <fullName>Remove</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>RemoveAll</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove All</shortDescription>
+        <value>Remove All</value>
+    </labels>
+    <labels>
+        <fullName>RemoveSigningGroupUserStatus</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RemoveSigningGroupUserStatus</shortDescription>
+        <value>Removing selected users...</value>
+    </labels>
+    <labels>
+        <fullName>RemoveUsersButtonLabel</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RemoveUsersButtonLabel</shortDescription>
+        <value>Remove Users</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SaveToDocuSignButtonLabel</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SaveToDocuSignButtonLabel</shortDescription>
+        <value>Save Changes to DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>SearchFilterFields</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Filter Fields</shortDescription>
+        <value>Search Filter Fields</value>
+    </labels>
+    <labels>
+        <fullName>SearchForRecipientsToAdd</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search recipients</shortDescription>
+        <value>Search recipients</value>
+    </labels>
+    <labels>
+        <fullName>Select</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select</shortDescription>
+        <value>Select</value>
+    </labels>
+    <labels>
+        <fullName>SelectAll</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select All</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>SelectAttachments</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectAttachments</shortDescription>
+        <value>Select attachment(s)</value>
+    </labels>
+    <labels>
+        <fullName>SelectDocuments</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select attachment(s)</shortDescription>
+        <value>Select attachment(s)</value>
+    </labels>
+    <labels>
+        <fullName>SelectRecipientRecordType</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Recipient Record Type</shortDescription>
+        <value>Select Recipient Record Type</value>
+    </labels>
+    <labels>
+        <fullName>SelectRecipientRecordTypeInstruction</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Recipient Record Type Instruction</shortDescription>
+        <value>Select a record type for the new default recipient. To skip this page in the future, change your record type settings on your personal setup page.</value>
+    </labels>
+    <labels>
+        <fullName>SelectRecipients</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select recipient(s)</shortDescription>
+        <value>Select recipient(s)</value>
+    </labels>
+    <labels>
+        <fullName>SelectRecordType</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectRecordType updated1</shortDescription>
+        <value>Select Record Type</value>
+    </labels>
+    <labels>
+        <fullName>SelectSigningGroup</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Signing Group</shortDescription>
+        <value>Please select a signing group to see the users.</value>
+    </labels>
+    <labels>
+        <fullName>SendForESignature</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SendForESignature</shortDescription>
+        <value>Send for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>SendForeSignatureAddAttachments</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send for eSignature: Add attachments to merge</shortDescription>
+        <value>Send for eSignature: Add attachments to merge</value>
+    </labels>
+    <labels>
+        <fullName>SendForeSignatures</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send for eSignature</shortDescription>
+        <value>Send for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>SendOnBehalfOf</fullName>
+        <categories>Button Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send on behalf of</shortDescription>
+        <value>Send on Behalf of</value>
+    </labels>
+    <labels>
+        <fullName>SetupDocuSignAccount</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetupDocuSignAccount</shortDescription>
+        <value>Setup DocuSign account</value>
+    </labels>
+    <labels>
+        <fullName>SetupDocuSignAccountTab</fullName>
+        <categories>TabTitle</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Setup DocuSign admin account</shortDescription>
+        <value>Setup DocuSign account</value>
+    </labels>
+    <labels>
+        <fullName>ShowAmendRenewAttachments</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show Amend Renew Attachments</shortDescription>
+        <value>Amendments / Renewals</value>
+    </labels>
+    <labels>
+        <fullName>ShowChildAttachments</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show child attachments</shortDescription>
+        <value>Child</value>
+    </labels>
+    <labels>
+        <fullName>ShowParentAttachments</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show parent attachments</shortDescription>
+        <value>Parent</value>
+    </labels>
+    <labels>
+        <fullName>ShowRelatedAttachments</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show related attachments</shortDescription>
+        <value>Related</value>
+    </labels>
+    <labels>
+        <fullName>ShowSiblingAttachments</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show sibling attachments</shortDescription>
+        <value>Sibling</value>
+    </labels>
+    <labels>
+        <fullName>SignerRoleName</fullName>
+        <categories>ListBoxText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signer Role Name listed with comma separated values</shortDescription>
+        <value>Custom Signer 1, Custom  Signer 2, Custom  Signer 3, Custom  Signer 4</value>
+    </labels>
+    <labels>
+        <fullName>SignerType</fullName>
+        <categories>ListBoxText</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signer type listed with comma separated values</shortDescription>
+        <value>signers!#!Signer,carbonCopies!#!Carbon Copies,inPersonSigners!#!In Person Signer</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroup</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Groups</shortDescription>
+        <value>Signing Groups</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroupDefaultOption</fullName>
+        <categories>Select Option Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Group Default Option</shortDescription>
+        <value>-- Select Signing Group --</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroupEmailPlaceholder</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Group Email Placeholder</shortDescription>
+        <value>(Signing Group)</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroupTempEmail</fullName>
+        <categories>Temp Email Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Group Temp Email</shortDescription>
+        <value>signing_group@email.temp</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroupUsers</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Group Users</shortDescription>
+        <value>Signing Group Users</value>
+    </labels>
+    <labels>
+        <fullName>SigningGroupUsersRetrieveStatus</fullName>
+        <categories>Status Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Group Users Retrieve Status</shortDescription>
+        <value>Retrieving users..</value>
+    </labels>
+    <labels>
+        <fullName>SigningOrder</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signing Order</shortDescription>
+        <value>Signing Order</value>
+    </labels>
+    <labels>
+        <fullName>Size</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Size</shortDescription>
+        <value>Size</value>
+    </labels>
+    <labels>
+        <fullName>Status</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>StatusMessage</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status message</shortDescription>
+        <value>Refreshing... Please wait</value>
+    </labels>
+    <labels>
+        <fullName>SuccessfullySentforeSignature</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Successfully sent for eSignature</shortDescription>
+        <value>Successfully sent for eSignature</value>
+    </labels>
+    <labels>
+        <fullName>SyncStatus</fullName>
+        <categories>Status Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sync Status</shortDescription>
+        <value>Syncing with DocuSign....</value>
+    </labels>
+    <labels>
+        <fullName>SyncWithDocuSign</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sync With DocuSign</shortDescription>
+        <value>Sync With DocuSign</value>
+    </labels>
+    <labels>
+        <fullName>SystemErrorLabel</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SystemError</shortDescription>
+        <value>System Error</value>
+    </labels>
+    <labels>
+        <fullName>SystemInternalError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>An internal error has occurred. Contact system support for assistance.</shortDescription>
+        <value>An internal error has occurred. Contact system support for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>TermsAndConditionsLink</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TermsAndConditionsLink</shortDescription>
+        <value>https://www.docusign.com/company/terms-and-conditions/reseller</value>
+    </labels>
+    <labels>
+        <fullName>Type</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>UniversalUIErrorMessage</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Universal UI Error Message</shortDescription>
+        <value>Your request could not be completed. Try again and contact your support team, if error persists</value>
+    </labels>
+    <labels>
+        <fullName>UnknownError</fullName>
+        <categories>ERROR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unknown Error</shortDescription>
+        <value>Your request could not be completed. Try again and contact your support team, if the error persists.</value>
+    </labels>
+    <labels>
+        <fullName>UserAlreadyExistsInAccount</fullName>
+        <categories>ERROR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Already Exists In Account</shortDescription>
+        <value>Your request could not be completed. Try again and contact your support team, if the error persists.</value>
+    </labels>
+    <labels>
+        <fullName>UserNeedsActivation</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Needs Activation</shortDescription>
+        <value>Your DocuSign account membership has not been activated yet. Please check your inbox for a DocuSign Account Activation email, and complete the membership setup process or contact your system administrator regarding your DocuSign account.</value>
+    </labels>
+    <labels>
+        <fullName>checkEnvelopeStatusError</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>error occurred while retrieving the status</shortDescription>
+        <value>Your request could not be completed. Try again and contact your support team, if the error persists.</value>
+    </labels>
+    <labels>
+        <fullName>checkEnvelopeStatusExecuting</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Check eSignature processing</shortDescription>
+        <value>Getting eSignature request status</value>
+    </labels>
+    <labels>
+        <fullName>checkEnvelopeStatusQueued</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Getting eSignature request status</shortDescription>
+        <value>Getting eSignature request status</value>
+    </labels>
+    <labels>
+        <fullName>checkEnvelopeStatusSuccess</fullName>
+        <categories>Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>retrieved the latest status</shortDescription>
+        <value>Back to Parent Object page</value>
+    </labels>
+    <labels>
+        <fullName>eSignatureRecipients</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>eSignature recipients</shortDescription>
+        <value>eSignature recipients</value>
+    </labels>
+    <labels>
+        <fullName>eSignatureRequest</fullName>
+        <categories>Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>eSignature request</shortDescription>
+        <value>eSignature request</value>
+    </labels>
+    <labels>
+        <fullName>selectDefaultRecipientRecordTypeHeading</fullName>
+        <categories>pageHeading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>select DefaultRecipient RecordType Heading</shortDescription>
+        <value>Select DocuSign Default Recipient Record Type</value>
+    </labels>
+    <labels>
+        <fullName>selectDefaultRecipientRecordTypeSubHeading</fullName>
+        <categories>pageSubHeading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>select DefaultRecipient RecordType SubHeading</shortDescription>
+        <value>Select a record type for the new docusign default recipient. To skip this page in the future, change your record type settings on your personal setup page.</value>
+    </labels>
+</CustomLabels>

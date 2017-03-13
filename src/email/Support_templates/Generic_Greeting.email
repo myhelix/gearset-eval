@@ -1,0 +1,8 @@
+Hello {!Case.Contact},
+
+Thank you for reaching out to Helix!
+
+
+Thanks!
+{!Case.OwnerFirstName}
+The Helix Customer Care Team

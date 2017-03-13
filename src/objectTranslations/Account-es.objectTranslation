@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Create Vendor? --></label>
+        <name>APTS_Create_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Id --></label>
+        <name>APTS_Vendor_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Count --></label>
+        <name>Account_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determined by Helix Marketplace. Defaults to Pending. Set to Active when Helix Account is created. Set to Deleted when the Helix Marketplace has deleted the corresponding account in the oauth DB. --></help>
+        <label><!-- Account Status --></label>
+        <name>Account_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Annual Consumer Base --></label>
+        <name>Annual_Consumer_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing DNA Product --></label>
+        <name>Existing_DNA_Product__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lab Status --></label>
+        <name>Lab_Status__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outsourced</masterLabel>
+            <translation><!-- Outsourced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owned</masterLabel>
+            <translation><!-- Owned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Cap --></label>
+        <name>Market_Cap__c</name>
+    </fields>
+    <fields>
+        <help><!-- This should only be checked on a single SFDC Account record and will be used to house non-buyer Contacts. NO LONGER USED. TO BE DELETED. --></help>
+        <label><!-- NON-BUYER Account --></label>
+        <name>NON_BUYER_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Type --></label>
+        <name>Ownership_Type__c</name>
+        <picklistValues>
+            <masterLabel>Non-Profit</masterLabel>
+            <translation><!-- Non-Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partner Description1 --></label>
+        <name>Partner_Description1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Description2 --></label>
+        <name>Partner_Description2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Helix-specified Partner ID. Used to associate Partner Accounts to Orders when a Partner ID is specified via the Helix Marketplace API. --></help>
+        <label><!-- Partner ID --></label>
+        <name>Partner_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field points to the Partner Logo Image stored in SFDC &quot;Documents&quot;. It is used to populate dynamically generated co-branded emails. --></help>
+        <label><!-- Partner Logo URL --></label>
+        <name>Partner_Logo_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Image referenced by the Partner Logo URL. --></help>
+        <label><!-- Partner Logo --></label>
+        <name>Partner_Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please select Partner Type --></help>
+        <label><!-- Partner Type --></label>
+        <name>Partner_Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Helix B2B Account Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Helix B2B Account --></label>
+        <name>Helix_B2B_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Helix B2C Account --></label>
+        <name>Helix_B2C_Account</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- ViewAgreementHierarchyforAccount --></label>
+        <name>Apttus__ViewAgreementHierarchyforAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewAgreementHierarchyforAccount2 --></label>
+        <name>Apttus__ViewAgreementHierarchyforAccount2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

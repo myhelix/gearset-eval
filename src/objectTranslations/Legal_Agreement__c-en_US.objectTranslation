@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Legal Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Legal Agreements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Legal Agreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Legal Agreement Count --></label>
+        <name>Legal_Agreement_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date/Time when agreed set to TRUE on an agreement record. --></help>
+        <label><!-- agreedDateTime --></label>
+        <name>agreedDateTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Captures if agreement was agreed to by Contact --></help>
+        <label><!-- agreed --></label>
+        <name>agreed__c</name>
+    </fields>
+    <fields>
+        <help><!-- appId that agreement is related to, if applicable --></help>
+        <label><!-- appId --></label>
+        <name>appId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the document agreed to by the Contact. --></help>
+        <label><!-- key --></label>
+        <name>key__c</name>
+    </fields>
+    <fields>
+        <help><!-- Version of the document agreed to by the Contact --></help>
+        <label><!-- version --></label>
+        <name>version__c</name>
+    </fields>
+    <layouts>
+        <layout>Legal Agreement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Legal Agreement Layout - Read Only</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- AppId is required for ctt agreements. Please provide appId --></errorMessage>
+        <name>CTT_Agreement_Needs_AppId</name>
+    </validationRules>
+</CustomObjectTranslation>

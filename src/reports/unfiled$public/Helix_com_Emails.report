@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CONTACT_ID</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>@helix.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>eng.test+</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Helix.com Emails</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactAsset</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <endDate>2017-02-18</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-01-17</startDate>
+    </timeFrameFilter>
+</Report>

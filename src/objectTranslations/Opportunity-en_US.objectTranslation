@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Target MOU Close Date</value>
+        </caseValues>
+        <name>close_date_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Product Description</value>
+        </caseValues>
+        <name>description_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Helix Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Helix Team</value>
+        </caseValues>
+        <name>opportunity_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunities with Helix Teams and Products Report</value>
+        </caseValues>
+        <name>opportunity_team_product_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Helix Team Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>HelixTeam Reports</value>
+        </caseValues>
+        <name>opportunity_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Please score (1-5) --></help>
+        <label><!-- Ability to pay --></label>
+        <name>Ability_to_pay__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please rate (1-5) --></help>
+        <label><!-- Brand equity --></label>
+        <name>Brand_equity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Confirmed --></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business/ Legal --></label>
+        <name>Business_Legal2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please score (1-5) --></help>
+        <label><!-- Consumer base --></label>
+        <name>Consumer_base__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically filled in when &quot;Coverage Check: Obtained &amp; Added&quot; is checked --></help>
+        <label><!-- Coverage Check: Date --></label>
+        <name>Coverage_Check_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check only when Coverage Check is uploaded to the opportunity --></help>
+        <label><!-- Coverage Check: Obtained &amp; Added --></label>
+        <name>Coverage_Check_Obtained_Added__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically filled in when &quot;Definitive Agreement: Obtained &amp; Added&quot; is checked --></help>
+        <label><!-- Definitive Agreement: Date --></label>
+        <name>Definitive_Agreement_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check only when Definitive Agreement is uploaded to the opportunity --></help>
+        <label><!-- Definitive Agreement: Obtained &amp; Added --></label>
+        <name>Definitive_Agreement_Obtained_Added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Business/ Legal --></label>
+        <name>Description_Business_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Design --></label>
+        <name>Description_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Engineering --></label>
+        <name>Description_Engineering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Marketing --></label>
+        <name>Description_Marketing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Operations --></label>
+        <name>Description_Operations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Product --></label>
+        <name>Description_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Regulatory --></label>
+        <name>Description_Regulatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description: Science --></label>
+        <name>Description_Science__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design --></label>
+        <name>Design2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discovery Completed --></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineering --></label>
+        <name>Engineering2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estimated Number of Kits (Monthly) --></label>
+        <name>Estimated_Number_of_Kits_Monthly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please score (1-5) --></help>
+        <label><!-- Fills a need / gap --></label>
+        <name>Fills_a_need_gap__c</name>
+    </fields>
+    <fields>
+        <label><!-- For Discussion --></label>
+        <name>For_Discussion__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please Score (1-5) --></help>
+        <label><!-- Innovation --></label>
+        <name>Innovation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Score (1-5) --></help>
+        <label><!-- Internal commitment --></label>
+        <name>Internal_commitment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in Validation Rule when value contains &quot;Please Specify&quot; --></help>
+        <label><!-- Lead Source Details --></label>
+        <name>Lead_Source_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation><!-- Lost to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation><!-- No Budget / Lost Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation><!-- No Decision / Non-Responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used when &quot;Other&quot; is selected --></help>
+        <label><!-- Lost Reason Details --></label>
+        <name>Lost_Reason_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost Reasons --></label>
+        <name>Lost_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Helix capabilities (data, tech)</masterLabel>
+            <translation><!-- Helix capabilities (data, tech) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal issue (ie IP)</masterLabel>
+            <translation><!-- Legal issue (ie IP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management buy-in</masterLabel>
+            <translation><!-- Management buy-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other platform</masterLabel>
+            <translation><!-- Other platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other, please explain</masterLabel>
+            <translation><!-- Other, please explain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect capabilities</masterLabel>
+            <translation><!-- Prospect capabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing</masterLabel>
+            <translation><!-- Timing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Automatically filled in when &quot;MOU: Obtained &amp; Added&quot; is checked --></help>
+        <label><!-- MOU: Date --></label>
+        <name>MOU_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check only when MOU is uploaded to the opportunity --></help>
+        <label><!-- MOU: Obtained &amp; Added --></label>
+        <name>MOU_Obtained_Added__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please define which market category the deal is --></help>
+        <label><!-- Market Category --></label>
+        <name>Market_Category__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please define the Market Sub-category --></help>
+        <label><!-- Market Sub-category --></label>
+        <name>Market_Sub_category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Sub-category details --></label>
+        <name>Market_Sub_category_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing --></label>
+        <name>Marketing2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 1st Month Projection --></help>
+        <label><!-- Month 1 --></label>
+        <name>Month_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- 2nd Month Projection --></help>
+        <label><!-- Month 2 --></label>
+        <name>Month_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- 3rd Month Projection --></help>
+        <label><!-- Month 3 --></label>
+        <name>Month_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- 4th Month Projection --></help>
+        <label><!-- Month 4 --></label>
+        <name>Month_4__c</name>
+    </fields>
+    <fields>
+        <help><!-- 5th Month Projection --></help>
+        <label><!-- Month 5 --></label>
+        <name>Month_5__c</name>
+    </fields>
+    <fields>
+        <help><!-- 6th Month Projection --></help>
+        <label><!-- Month 6 --></label>
+        <name>Month_6__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically filled in When &quot; NDA: Obtained &amp; Added&quot; is checked --></help>
+        <label><!-- NDA: Date --></label>
+        <name>NDA_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check only when NDA is uploaded to the opportunity --></help>
+        <label><!-- NDA: Obtained &amp; Added --></label>
+        <name>NDA_Obtained_Added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations --></label>
+        <name>Operations2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Status --></label>
+        <name>Overall_Status__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority Prospect --></label>
+        <name>Priority_Prospect__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Probability Description --></label>
+        <name>Probability_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability of launch --></label>
+        <name>Probability_of_launch__c</name>
+        <picklistValues>
+            <masterLabel>10%</masterLabel>
+            <translation><!-- 10% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30%</masterLabel>
+            <translation><!-- 30% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70%</masterLabel>
+            <translation><!-- 70% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90%</masterLabel>
+            <translation><!-- 90% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Product_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Score (1-5) --></help>
+        <label><!-- Product / market fit --></label>
+        <name>Product_market_fit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please score (1-5) --></help>
+        <label><!-- Product savvy --></label>
+        <name>Product_savvy__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI Analysis Completed --></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory --></label>
+        <name>Regulatory2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please Score (1-5) --></help>
+        <label><!-- Resources --></label>
+        <name>Resources__c</name>
+    </fields>
+    <fields>
+        <label><!-- Science --></label>
+        <name>Science2__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Automatically filled in when &quot;Scientific Eval: Obtained &amp; Added&quot; is checked --></help>
+        <label><!-- Scientific Eval: Date --></label>
+        <name>Scientific_Eval_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check only when Scientific Eval is uploaded to the opportunity --></help>
+        <label><!-- Scientific Eval: Obtained &amp; Added --></label>
+        <name>Scientific_Eval_Obtained_Added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seasonal Product --></label>
+        <name>Seasonal_Product__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Business/ Legal --></label>
+        <name>Status_Business_Legal2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Design --></label>
+        <name>Status_Design2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Engineering --></label>
+        <name>Status_Engineering2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Marketing --></label>
+        <name>Status_Marketing2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Operations --></label>
+        <name>Status_Operations2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Product --></label>
+        <name>Status_Product2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Regulatory --></label>
+        <name>Status_Regulatory2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status: Science --></label>
+        <name>Status_Science2__c</name>
+        <picklistValues>
+            <masterLabel>Gray (not started)</masterLabel>
+            <translation><!-- Gray (not started) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green (on track to meet target launch)</masterLabel>
+            <translation><!-- Green (on track to meet target launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red (strong risk for missing timeline)</masterLabel>
+            <translation><!-- Red (strong risk for missing timeline) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow (behind or needs attention)</masterLabel>
+            <translation><!-- Yellow (behind or needs attention) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Summary --></label>
+        <name>Status_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the client expects to launch --></help>
+        <label><!-- Target Launch Date --></label>
+        <name>Target_Launch_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Lead Scoring across Lead/ Opportunity Objects --></help>
+        <label><!-- Timing --></label>
+        <name>Timing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Weighted Lead Score --></label>
+        <name>Total_Weighted_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please Score (1-5) --></help>
+        <label><!-- Trust --></label>
+        <name>Trust__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used when &quot;Other&quot; is selected --></help>
+        <label><!-- Won Reason Details --></label>
+        <name>Won_Reason_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Won Reasons --></label>
+        <name>Won_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Data quality/quantity</masterLabel>
+            <translation><!-- Data quality/quantity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easy to do business</masterLabel>
+            <translation><!-- Easy to do business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing/promotional spend</masterLabel>
+            <translation><!-- Marketing/promotional spend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketplace size</masterLabel>
+            <translation><!-- Marketplace size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other, please explain</masterLabel>
+            <translation><!-- Other, please explain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Helix B2B Opportunity Page Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Checklist --></label>
+            <section>Onboarding Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Checklist --></label>
+            <section>Sales Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Volume Projections --></label>
+            <section>Volume Projections</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Helix B2B Opportunity --></label>
+        <name>Helix_B2B_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please fill in details --></errorMessage>
+        <name>Lead_Source_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in reason why the deal was lost --></errorMessage>
+        <name>Lost_Reason_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in details --></errorMessage>
+        <name>Market_sub_category_details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in reason why the deal was won --></errorMessage>
+        <name>Won_Reason_Details</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- EditInExcel --></label>
+        <name>Apttus_XApps__EditInExcel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateAgreementFromOpportunity --></label>
+        <name>Apttus__CreateAgreementFromOpportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOfflineAgreementFromOpportunity --></label>
+        <name>Apttus__CreateOfflineAgreementFromOpportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewAgreementFromOpportunity --></label>
+        <name>Apttus__NewAgreementFromOpportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewOfflineAgreementFromOpportunity --></label>
+        <name>Apttus__NewOfflineAgreementFromOpportunity</name>
+    </webLinks>
+</CustomObjectTranslation>

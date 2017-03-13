@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Related list to capture copyright and/or patent assignments that a consultant delivers to Helix under the Consulting Agreement - Technical.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Author_s__c</fullName>
+        <description>Records the author(s) of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Records the author(s) of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</inlineHelpText>
+        <label>Author(s)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Copyright_Patent_Assignment__c</fullName>
+        <externalId>false</externalId>
+        <label>Copyright/Patent Assignment</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Assignment of Copyrights and Patents</relationshipLabel>
+        <relationshipName>Assignment_of_Copyrights_and_Patents</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>I_D_Application_Number__c</fullName>
+        <description>Records the I.D. or patent application numbers of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Records the I.D. or patent application numbers of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</inlineHelpText>
+        <label>I.D./Application Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Records the title of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Records the title of copyrights and/or patent applications assigned to Helix under the Consulting Agreement - Technical.</inlineHelpText>
+        <label>Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Assignment of Copyrights and Patents</label>
+    <nameField>
+        <label>Assignment of Copyrights and Patents Nam</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Assignment of Copyrights and Patents</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

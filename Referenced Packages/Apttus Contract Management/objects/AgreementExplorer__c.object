@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>AgreementExplorerEdit</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>AgreementExplorerEdit</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A reusable, unique combination of Field Sets and Filter Sets.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Account Id associated with this query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Account Id associated with this query.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Agreement Explorers</relationshipLabel>
+        <relationshipName>AgreementExplorers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The agreement Id associated with this query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The agreement Id associated with this query.</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Explorers</relationshipLabel>
+        <relationshipName>AgreementExplorers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Category allows users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Category allows users to search, find, and select explorer records</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Context__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The context of the given query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The context of the given query.</inlineHelpText>
+        <label>Context</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Agreement By Account(s)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Agreement Search</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The query criteria specification</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The query criteria specification</inlineHelpText>
+        <label>Criteria</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field determines if the query in question is the default query for the given context.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field determines if the query in question is the default query for the given context.</inlineHelpText>
+        <label>Default</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The description of the query.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FieldSet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comma separated list of API names of fields to display in the result set for the query</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A comma separated list of API names of fields to display in the result set for the query</inlineHelpText>
+        <label>Result Field Set</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords allow users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Keywords allow users to search, find, and select explorer records</inlineHelpText>
+        <label>Keywords</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Label allows users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Label allows users to search, find, and select explorer records</inlineHelpText>
+        <label>Label</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Public__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Determines if the query is public or private.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines if the query is public or private.</inlineHelpText>
+        <label>Public</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A forumla field that shows up as a link on the Agreement Explorer tab, which will direct user to the result page once clicked.</description>
+        <externalId>false</externalId>
+        <formula>CASE(Context__c,
+  &quot;Agreement&quot;,HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context=Agreement&quot;, Name ),
+  &quot;Agreement By Account(s)&quot;, HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context= Agreement By Account(s)&quot;, Name ),
+  &quot;Agreement Search&quot;,  HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context=Agreement Search&quot;, Name), &quot;&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A forumla field that shows up as a link on the Agreement Explorer tab, which will direct user to the result page once clicked.</inlineHelpText>
+        <label>Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Agreement Explorer</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Title__c</columns>
+        <columns>Context__c</columns>
+        <columns>Category__c</columns>
+        <columns>Label__c</columns>
+        <columns>Keywords__c</columns>
+        <columns>Description__c</columns>
+        <columns>Public__c</columns>
+        <columns>Default__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agreement Explorer</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Context__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Public__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Default__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Context__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Public__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Default__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Title__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Context__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Public__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Default__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Title__c</searchFilterFields>
+        <searchFilterFields>Description__c</searchFilterFields>
+        <searchFilterFields>Context__c</searchFilterFields>
+        <searchFilterFields>Public__c</searchFilterFields>
+        <searchFilterFields>Default__c</searchFilterFields>
+        <searchFilterFields>OWNER.ALIAS</searchFilterFields>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Context__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Public__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Default__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>SearchAgreements</fullName>
+        <availability>online</availability>
+        <description>Links to Agreement Explorer Results page using default query using Agreement Search context</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Search Agreements</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus__AgreementExplorerResults?context=Agreement%20Search</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AutoSelectAttachment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the most recent attachment is auto selected</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the most recent attachment is auto selected</inlineHelpText>
+        <label>Auto Select Attachment ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AutoSelectMultipleRecipients__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allows projects to specify a list of recipients that will be defaulted for the eSignature. 
+To use this option, projects will add &quot;DocuSign Default Recipients&quot; related list on the Agreement and user will specify the list for each Agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows projects to specify a list of recipients that will be defaulted for the eSignature. 
+To use this option, projects will add &quot;DocuSign Default Recipients&quot; related list on the Agreement and user will specify the list for each Agreement</inlineHelpText>
+        <label>Auto-Select multiple recipients?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ESignatureStrictMode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>RESERVED: Run Docusign eSignature Strict more where this will disable buttons for Select Attachments / Recipeints</description>
+        <externalId>false</externalId>
+        <inlineHelpText>RESERVED: Run Docusign eSignature Strict more where this will disable buttons for Select Attachments / Recipeints</inlineHelpText>
+        <label>eSignature Strict Mode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EnableDocumentPreviewInDocuSign__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable document preview in DocuSign Application ?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable document preview in DocuSign Application ?</inlineHelpText>
+        <label>Enable Document Preview in DocuSign App</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FieldNameAutoSelectRecipient__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API Name of the field which holds the value for the recipient to auto select</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API Name of the field which holds the value for the recipient to auto select</inlineHelpText>
+        <label>Auto Select Recipient Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FilterRSPCByPrimaryAgreementStatus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Filter the related/sibling/parent/child agreements by the status category/status values of the primary agreement i.e. agreement being sent for eSignature. This setting is used only when the &quot;Select Attachments From Related/Sibling&quot; setting is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Filter the related/sibling/parent/child agreements by the status category/status values of the primary agreement i.e. agreement being sent for eSignature. This setting is used only when the &quot;Select Attachments From Related/Sibling&quot; setting is checked.</inlineHelpText>
+        <label>Filter RSPC By Primary Agreement Status</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OneClickSend__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Use this to send for eSignature directly from the Agreement page. The eSignature request will automatically include the recipients from the default recipient list/OR from the field defined under the custom setting field &quot;Auto Select Recipient Field&quot;, and will automatically select the first attachment from the agreement&apos;s notes &amp; attachment list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this to send for eSignature directly from the Agreement page, by auto including the recipients from the default recipient list/OR from the field defined under the custom setting field &quot;Auto Select Recipient Field&quot;, and auto selecting the first doc.</inlineHelpText>
+        <label>One Click Send</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SelectAttachmentsFromRSPCAgreements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether attachments will be selected from related, sibling, parent and child agreements</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether attachments will be selected from related, sibling, parent and child agreements</inlineHelpText>
+        <label>Select Attachments From Related/Sibling</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UpdateRSPCAgreementStatus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Update the selected related/sibling/parent/child agreement status category/status values along with the primary agreement i.e. the agreement being sent for eSignature. This setting is used only when the &quot;Select Attachments From Related/Sibling&quot; setting is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Update the selected related/sibling/parent/child agreement status category/status values along with primary agreement i.e. the agreement being sent for eSignature. This setting is used when the &quot;Select Attachments From Related/Sibling&quot; setting is checked.</inlineHelpText>
+        <label>Update RSPC Agreement Status</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partner Shipping Option</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partner Shipping Options</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Price for Shipping with this option. --></help>
+        <label><!-- Default Shipping Cost --></label>
+        <name>Default_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account__c</name>
+        <relationshipLabel><!-- Partner Shipping Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (10 kits) --></label>
+        <name>Rate_10_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (11 kits) --></label>
+        <name>Rate_11_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (12 kits) --></label>
+        <name>Rate_12_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (13 kits) --></label>
+        <name>Rate_13_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (14 kits) --></label>
+        <name>Rate_14_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (15 kits) --></label>
+        <name>Rate_15_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (16 kits) --></label>
+        <name>Rate_16_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (17 kits) --></label>
+        <name>Rate_17_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (18 kits) --></label>
+        <name>Rate_18_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (19 kits) --></label>
+        <name>Rate_19_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (1 kit) --></label>
+        <name>Rate_1_kit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (20 kits) --></label>
+        <name>Rate_20_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (2 kits) --></label>
+        <name>Rate_2_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (3 kits) --></label>
+        <name>Rate_3_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (4 kits) --></label>
+        <name>Rate_4_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (5 kits) --></label>
+        <name>Rate_5_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (6 kits) --></label>
+        <name>Rate_6_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (7 kits) --></label>
+        <name>Rate_7_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (8 kits) --></label>
+        <name>Rate_8_kits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate for indicated number of kits --></help>
+        <label><!-- Rate (9 kits) --></label>
+        <name>Rate_9_kits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Level --></label>
+        <name>Service_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Product --></label>
+        <name>Shipping_Product__c</name>
+        <relationshipLabel><!-- Partner Shipping Options --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Partner Shipping Option Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Shipping Option Layout READ ONLY</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
