@@ -24,7 +24,7 @@
             <name>New_SuperOrder_Alert</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <formula>$Organization.Id =&quot;00D5C0000008fTA&quot;</formula>
         <triggerType>onCreateOnly</triggerType>
     </rules>

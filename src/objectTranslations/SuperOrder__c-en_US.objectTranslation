@@ -80,6 +80,16 @@
         <name>Total_Amount_Charged__c</name>
     </fields>
     <fields>
+        <help><!-- Calculates the Net amount from the Total Amount Charged - Total Amount Refunded Amount --></help>
+        <label><!-- Total Net Amount --></label>
+        <name>Total_Net_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Currency field that captures the sum of all Order Event records of the Refund type. Used in calculating the Net Amount of a Super Order. --></help>
+        <label><!-- Total Refunded Amount --></label>
+        <name>Total_Refunded_Amount__c</name>
+    </fields>
+    <fields>
         <label><!-- Total Tax --></label>
         <name>Total_Tax__c</name>
     </fields>

@@ -1578,10 +1578,15 @@ window.parent.location.reload();
         <masterLabel>Send Email</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>if(&apos;{!Case.ContactId}&apos; == &quot;&quot;){ 
-window.parent.location.href = &quot;/_ui/core/email/author/EmailAuthor?rtype=003&amp;p3_lkid={!Case.Id}&amp;retURL=%2F{!Case.Id}&amp;p24={!Case.Email__c}&quot;; 
-}else{ 
-window.parent.location.href = &quot;/_ui/core/email/author/EmailAuthor?rtype=003&amp;p3_lkid={!Case.Id}&amp;retURL=%2F{!Case.Id}&amp;p2_lkid={!Case.ContactId}&quot;; 
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/28.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/support/console/28.0/integration.js&quot;)} 
+
+var url = &apos;/_ui/core/email/author/EmailAuthor?rtype=003&amp;p3_lkid={!Case.Id}&amp;retURL={!Case.Id}&amp;p24={!Case.Email__c}&amp;isdtp=vw&apos;; 
+
+if (sforce.console.isInConsole()) { 
+srcUp(url); 
+} else { 
+window.open(url,&apos;_blank&apos;); 
 }</url>
     </webLinks>
     <webLinks>

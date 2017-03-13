@@ -97,6 +97,10 @@
             <section>Agreement Execution Detail</section>
         </sections>
         <sections>
+            <label><!-- App Commitments --></label>
+            <section>App Commitments</section>
+        </sections>
+        <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
         </sections>
@@ -105,8 +109,16 @@
             <section>Fields</section>
         </sections>
         <sections>
+            <label><!-- IP License Detail --></label>
+            <section>IP License Detail</section>
+        </sections>
+        <sections>
             <label><!-- Key Dates --></label>
             <section>Key Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Non Standard Terms Detail --></label>
+            <section>Non Standard Terms Detail</section>
         </sections>
         <sections>
             <label><!-- Pricing Terms &amp; Fees --></label>
@@ -117,12 +129,51 @@
             <section>Record Detail</section>
         </sections>
         <sections>
+            <label><!-- Revenue Share Detail --></label>
+            <section>Revenue Share Detail</section>
+        </sections>
+        <sections>
             <label><!-- System Information --></label>
             <section>System Information</section>
         </sections>
         <sections>
             <label><!-- Term &amp; Renewals --></label>
             <section>Term &amp; Renewals</section>
+        </sections>
+        <sections>
+            <label><!-- Termination --></label>
+            <section>Termination</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Material Transfer Agreement</layout>
+        <sections>
+            <label><!-- Actions --></label>
+            <section>Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Agreement Execution Detail --></label>
+            <section>Agreement Execution Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Dates --></label>
+            <section>Key Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Material Transfer Detail --></label>
+            <section>Material Transfer Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Record Detail --></label>
+            <section>Record Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Term --></label>
+            <section>Term</section>
         </sections>
         <sections>
             <label><!-- Termination --></label>

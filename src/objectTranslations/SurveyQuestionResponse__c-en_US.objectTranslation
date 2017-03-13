@@ -9,6 +9,11 @@
         <value>Survey Question Responses</value>
     </caseValues>
     <fields>
+        <label><!-- Case Owner --></label>
+        <name>Case_Owner__c</name>
+        <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Case --></label>
         <name>Case__c</name>
         <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>

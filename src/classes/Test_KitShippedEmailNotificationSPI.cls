@@ -196,4 +196,9 @@ private class Test_KitShippedEmailNotificationSPI {
         // task count remain same  
         System.assertEquals(soList.size(), tskList.size());
     }
+    
+    static testmethod void testTrackingLinkLabels() {
+        System.assertEquals('<p style="color:#329AF2;font-size:20px;margin:0 auto;">', System.Label.Tracking_Link_Start_Tag);
+        System.assertEquals('</p>', System.Label.Tracking_Link_End_Tag);
+    }
 }

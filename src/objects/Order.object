@@ -103,6 +103,20 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Amount_Available_to_Refund__c</fullName>
+        <description>A formula that calculates how much money is available to refund for an Order. Factors in any previous refunds.</description>
+        <externalId>false</externalId>
+        <formula>Actual_Order_Total__c -  Total_Amount_Refunded__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A formula that calculates how much money is available to refund for an Order. Factors in any previous refunds.</inlineHelpText>
+        <label>Amount Available to Refund</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>App_Partner_ID__c</fullName>
         <externalId>false</externalId>
         <formula>App_Partner__r.Partner_ID__c</formula>
@@ -135,6 +149,80 @@
     <fields>
         <fullName>BillingAddress</fullName>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Date__c</fullName>
+        <description>When a Cancellation Order Event is entered, this field captures the date of the request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When a Cancellation Order Event is entered, this field captures the date of the request.</inlineHelpText>
+        <label>Cancellation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Reason__c</fullName>
+        <description>Set during a Cancel Order Event to capture the customer&apos;s reasoning for cancelling their order. A required field in the Services Toolbox.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set during a Cancel Order Event to capture the customer&apos;s reasoning for cancelling their order. A required field in the Services Toolbox.</inlineHelpText>
+        <label>Cancellation Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accidental purchase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No longer want kit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Complaint with registration process</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Complaint with results</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Service Issue</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sample cannot be sequenced</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Partner Resend</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Privacy concerns</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Accidental multiple order</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Incorrectly charged</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Did not purchase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LDT Failed</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CompanyAuthorizedById</fullName>
@@ -247,6 +335,35 @@
         <fullName>IsReductionOrder</fullName>
     </fields>
     <fields>
+        <fullName>Kit_Order_Product_ERP_Status__c</fullName>
+        <description>Based on the Kit Order Product Status Number, this formula translates the number to a text string. Transmitted to Netsuite by Boomi.</description>
+        <externalId>false</externalId>
+        <formula>CASE(Kit_Order_Status_Number__c, 1, &quot;Not Transmitted to NetSuite&quot;,2, &quot;Uploaded to DNAG but not Netsuite&quot;,3, &quot;Uploaded to NetSuite but not DNAG&quot;, 4,&quot;Uploaded to NetSuite &amp; DNAG (Submitted)&quot;,5,&quot;Uploaded to NetSuite &amp; DNAG (Shipped)&quot;,6,&quot;Registered: Not Arrived at Lab&quot;,7,&quot;Registered: Arrived at Lab (Inventory Transfer Pending)&quot;,8,&quot;Registered: Arrived at Lab (Inventory Transferred)&quot;,9,&quot;Extraction Underway&quot;,10, &quot;Data Delivered&quot;,&quot;None&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Kit Order Product ERP Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Kit_Order_Status_Number__c</fullName>
+        <description>This formula is used to determine the Status of an Order based on the status of the Kit Order Product. This number rolls up to the Order record, where it is translated into text. Used by the Order Event records to determine if an Order Event record is needed in Netsuite.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines the Status of an Order based on the status of the Kit Order Product. This number rolls up to the Order record, where it is translated into text. Used by the Order Event records to determine if an Order Event record is needed in Netsuite.</inlineHelpText>
+        <label>Kit Order Status Number</label>
+        <summarizedField>OrderItem.Kit_Order_Status_Number__c</summarizedField>
+        <summaryFilterItems>
+            <field>OrderItem.Kit_Resend_Reason__c</field>
+            <operation>equals</operation>
+            <value></value>
+        </summaryFilterItems>
+        <summaryForeignKey>OrderItem.OrderId</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>Kit_Resends__c</fullName>
         <description>Tallies the total number of resent Kits. Updated automatically by APEX.</description>
         <externalId>false</externalId>
@@ -347,6 +464,20 @@ Only certain specific error messages trigger retries.</inlineHelpText>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Net_Amount__c</fullName>
+        <description>Calculates a final amount for this product after factoring in Refunds.</description>
+        <externalId>false</externalId>
+        <formula>Actual_Order_Total__c -  Total_Amount_Refunded__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Calculates a final amount for this product after factoring in Refunds.</inlineHelpText>
+        <label>Net Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Netsuite_Integration_Error_Detail__c</fullName>
@@ -554,6 +685,62 @@ Only certain specific error messages trigger retries.</inlineHelpText>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Refund_Reason__c</fullName>
+        <description>Captured during the Refund process, a required field if a Refund Order Event is entered from the Services Toolbox.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captured during the Refund process, a required field if a Refund Order Event is entered from the Services Toolbox.</inlineHelpText>
+        <label>Refund Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accidental purchase</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No longer want kit</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Complaint with registration process</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Complaint with results</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Service Issue</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sample cannot be sequenced</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Privacy concerns</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Accidental multiple order</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Incorrectly charged</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Did not purchase</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Registered_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Contact who registered the products linked to this Order</description>
@@ -599,6 +786,23 @@ Only certain specific error messages trigger retries.</inlineHelpText>
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Shipping_Handling_Total__c</fullName>
+        <description>Captures the total amount of Unit Price from all Order Products of the &quot;S&amp;H&quot; type. Used in calculating Refund amounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the total amount of Unit Price from all Order Products of the &quot;S&amp;H&quot; type. Used in calculating Refund amounts.</inlineHelpText>
+        <label>Shipping &amp; Handling Total</label>
+        <summarizedField>OrderItem.Shipping_Handling_Amount__c</summarizedField>
+        <summaryFilterItems>
+            <field>OrderItem.Shipping_Handling_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OrderItem.OrderId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>Shipping_Service_Level__c</fullName>
         <description>Obsolete Field - Remove from production</description>
         <externalId>false</externalId>
@@ -638,6 +842,18 @@ Only certain specific error messages trigger retries.</inlineHelpText>
     </fields>
     <fields>
         <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Amount_Refunded__c</fullName>
+        <description>Calculates the value of all Refunds from attached Order Event Item records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Calculates the value of all Refunds from attached Order Event Item records.</inlineHelpText>
+        <label>Total Amount Refunded</label>
+        <summarizedField>Order_Event__c.Total_Refund_Amount__c</summarizedField>
+        <summaryForeignKey>Order_Event__c.Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Type</fullName>

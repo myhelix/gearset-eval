@@ -138,6 +138,15 @@
         <protected>false</protected>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>Set_Previous_Accessioning_Status</fullName>
+        <field>Previous_Accessioning_Status__c</field>
+        <formula>Text(PRIORVALUE( Accessioning_Status__c ))</formula>
+        <name>Set Previous Accessioning Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>Set_Project_Name</fullName>
         <field>Project_Name__c</field>
         <formula>text(today()  - MOD(   today()  - DATE(1900, 1, 7), 7)+1)</formula>
@@ -239,6 +248,16 @@
             <value>CANCELLED</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Accessioning Status Change Actions</fullName>
+        <actions>
+            <name>Set_Previous_Accessioning_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(Accessioning_Status__c )</formula>
+        <triggerType>onAllChanges</triggerType>
     </rules>
     <rules>
         <fullName>Adjust DNAG-Supplied Ship Date</fullName>

@@ -27,6 +27,14 @@
                 <field>Total_Amount_Charged__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Total_Refunded_Amount__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Total_Net_Amount__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Stripe_Customer_ID__c</field>
             </layoutItems>
@@ -114,6 +122,27 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <excludeButtons>New</excludeButtons>
+        <fields>Order__c</fields>
+        <fields>NAME</fields>
+        <fields>Type__c</fields>
+        <fields>Refund_Type__c</fields>
+        <fields>Total_Refund_Amount__c</fields>
+        <fields>Cancellation_Date__c</fields>
+        <fields>CREATED_DATE</fields>
+        <relatedList>Order_Event__c.SuperOrder__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Order__c</fields>
+        <fields>Order_Event_Type__c</fields>
+        <fields>Order_Product__c</fields>
+        <fields>Refund_Amount__c</fields>
+        <fields>CREATED_DATE</fields>
+        <relatedList>Order_Event_Item__c.SuperOrder__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>

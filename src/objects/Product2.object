@@ -151,6 +151,16 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>IsCancellationAllowed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked, this product can be cancelled in the Services Toolbox or from a website. If unchecked, this product is not one that should have it&apos;s Status updated on an Order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, this product can be cancelled in the Services Toolbox or from a website. If unchecked, this product is not one that should have it&apos;s Status updated on an Order.</inlineHelpText>
+        <label>Allow Cancellation?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Kit_Revenue__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Used for calculation of Helix Sequence Revenue Unit Price on 3rd Party Orders with Kit...Helix Sequence Revenue Unit Price = &quot;New Cust Revenue&quot; from App Product record -  &quot;Kit Revenue&quot; from App Product Record</inlineHelpText>
@@ -331,6 +341,7 @@
     </fields>
     <fields>
         <fullName>Type__c</fullName>
+        <description>Picklist that sets the type of Product, useful in reporting and other logic throughout the Order lifecycle.</description>
         <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
@@ -353,6 +364,22 @@
                 </value>
                 <value>
                     <fullName>OTHER</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SALES TAX</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Helix Referral Fee</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Helix Sequence Revenue</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Partner Revenue Share</fullName>
                     <default>false</default>
                 </value>
             </valueSetDefinition>
@@ -610,6 +637,14 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Helix Referral Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helix Sequence Revenue</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>KIT</fullName>
                 <default>false</default>
             </values>
@@ -618,7 +653,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partner Revenue Share</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>S%26H</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SALES TAX</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

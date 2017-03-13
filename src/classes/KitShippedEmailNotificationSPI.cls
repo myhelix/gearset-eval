@@ -70,6 +70,8 @@ public class KitShippedEmailNotificationSPI {
                         KitShippedTokenData tData = new KitShippedTokenData();
                         tData.firstName = ord.BillToContact.FirstName;
                         
+                        // Format of trackingLink should be
+                        // <p style="color:#329AF2;font-size:20px;margin:0 auto;">LINK1</p><p style="color:#329AF2;font-size:20px;margin:0 auto;">LINK2</p> 
                         String trackingLink = '';
                         for(String link :soIdTrackingLinkMap.get(soId)) {
                             trackingLink += System.Label.Tracking_Link_Start_Tag + link + System.Label.Tracking_Link_End_Tag;
@@ -187,10 +189,6 @@ public class KitShippedEmailNotificationSPI {
                     String status = res.getStatus();
                     // if response is returned then parse from json response
                     if(statusCode == 200) {
-                        // if new authentication token is generated then update it in settings 
-                        if(newTokenGenerated) {
-                            HelixApiUtil.updateAccessToken(servCredName, authToken);
-                        }
                         
                         String responseBody = res.getBody();
                         if(responseBody != null) {
@@ -198,6 +196,11 @@ public class KitShippedEmailNotificationSPI {
                         } else {
                             HelixApiUtil.logError('APP_ERR', 'Response Failed', 'KitShippedEmailNotificationSPI', 'Response body is null', 'Response body is null');
                         }
+                        // if new authentication token is generated then update it in settings 
+                        if(newTokenGenerated) {
+                            HelixApiUtil.updateAccessToken(servCredName, authToken);
+                        }
+                        
                     } else {
                         // send request again if failure occured due to expired token
                         if(status == 'Unauthorized' && !newTokenGenerated) {

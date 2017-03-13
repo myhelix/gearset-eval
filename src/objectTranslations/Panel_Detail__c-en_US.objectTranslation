@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Panel Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Panel Details</value>
+    </caseValues>
+    <fields>
+        <help><!-- AKA Minimum Transaction Fee. --></help>
+        <label><!-- Data Access Fee --></label>
+        <name>Data_Access_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Helix Panel Detail --></label>
+        <name>Helix_Panel_Detail__c</name>
+        <relationshipLabel><!-- Panel Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Numbers may be approximate - check Agreement for details. --></help>
+        <label><!-- Panel Quantity --></label>
+        <name>Panel_Quantity__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -466,9 +466,9 @@ public with sharing class HMAPI_SFDC_IntegrationUtil {
         return accId;
     }
     
-    public static Error_Log__c logError(String statusCode, String status, String typeOfError, String description, String cause) {
+    public static Error_Log__c logError(String statusCode, String description, String typeOfError, String message, String cause) {
         Error_Log__c errorLog = new Error_Log__c(Error_Code__c = statusCode, 
-                    System_Message__c = status, Description__c = description, Type__c = typeOfError,
+                    System_Message__c = message, Description__c = description, Type__c = typeOfError,
                     Cause__c = cause);
         return errorLog;
     }

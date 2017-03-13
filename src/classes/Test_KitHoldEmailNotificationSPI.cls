@@ -41,7 +41,62 @@ private class Test_KitHoldEmailNotificationSPI {
         insert setting;
         // Next, perform some tests with your test price book entries.
     }
-
+    
+    // test login method to generate authentication token
+    static testMethod void singleEmailLoginTestMethod() {
+        SingleRequestMock fakeResponse = new SingleRequestMock(200,
+                                                 'OK',
+                                                 '{"access_token":"test_auth_token"}',
+                                                 null);
+        Test.setMock(HttpCalloutMock.class, fakeResponse);
+        
+        Sample_Service_Credentials__c sampleServCred = Test_ApiDataUtil.serviceCredSettings('SingleEmailService');
+        
+        Test.startTest();
+        String authToken = HelixApiLogin.getAuthToken(sampleServCred.Name, sampleServCred.UserName__c, sampleServCred.Password__c, 
+                                                                    sampleServCred.Login_Service__c, sampleServCred.Scope__c);
+        Test.stopTest();
+        System.assertEquals('test_auth_token', authToken);
+    }
+    
+    // test login method to generate authentication token
+    static testMethod void noAuthTokenLoginTestMethod() {
+        SingleRequestMock fakeResponse = new SingleRequestMock(200,
+                                                 'OK',
+                                                 '{"access_token":""}',
+                                                 null);
+        Test.setMock(HttpCalloutMock.class, fakeResponse);
+        
+        Sample_Service_Credentials__c sampleServCred = Test_ApiDataUtil.serviceCredSettings('SingleEmailService');
+        
+        Test.startTest();
+        String authToken = HelixApiLogin.getAuthToken(sampleServCred.Name, sampleServCred.UserName__c, sampleServCred.Password__c, 
+                                                                    sampleServCred.Login_Service__c, sampleServCred.Scope__c);
+        Test.stopTest();
+        System.assertEquals('', authToken);
+    }
+    
+    // test login method to generate authentication token
+    static testMethod void loginResponseFailedTestMethod() {
+        SingleRequestMock fakeResponse = new SingleRequestMock(401,
+                                                 'Error',
+                                                 'Unauthorized: Invalid username or password',
+                                                 null);
+        Test.setMock(HttpCalloutMock.class, fakeResponse);
+        
+        Sample_Service_Credentials__c sampleServCred = Test_ApiDataUtil.serviceCredSettings('SingleEmailService');
+        
+        Test.startTest();
+        String authToken = HelixApiLogin.getAuthToken(sampleServCred.Name, sampleServCred.UserName__c, sampleServCred.Password__c, 
+                                                                    sampleServCred.Login_Service__c, sampleServCred.Scope__c);
+        Test.stopTest();
+        System.assertEquals(null, authToken);
+        List<Error_Log__c> errList = [select Cause__c, System_Message__c from Error_Log__c where Error_Code__c = '401'];
+        System.assertEquals(1, errList.size());
+        System.assertEquals('Login Failed', errList[0].Cause__c);
+        System.assertEquals('Unauthorized: Invalid username or password', errList[0].System_Message__c);
+    }
+    
     static testmethod void testKitHoldEmailNotification() {
         Test_APIDataUtil.serviceCredSettings('SingleEmailService');
         Test_APIDataUtil.createKitHoldFakeResponse();

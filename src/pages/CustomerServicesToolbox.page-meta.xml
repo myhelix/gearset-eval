@@ -3,5 +3,6 @@
     <apiVersion>38.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>This page enables customer service users to initiate Order Services like refunds, cancellations, and resends from a customized user interface.</description>
     <label>CustomerServicesToolbox</label>
 </ApexPage>

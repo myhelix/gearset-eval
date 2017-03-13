@@ -40,7 +40,7 @@ public class CustomerServicesToolboxCtrl {
             }
             
             // query order, kit lines and super order
-            List<Order> orderLineList = [select SuperOrder__c, SuperOrder__r.Name, SuperOrder__r.CreatedDate, 
+            List<Order> orderLineList = [select SuperOrder__c, SuperOrder__r.Name, SuperOrder__r.CreatedDate, Status,
                 SuperOrder__r.Total_Amount_Charged__c, Helix_Order_Number__c, Partner_Channel__c, Partner_Channel__r.Name, 
                 App_Partner__c, App_Partner__r.Name, Netsuite_Sales_Order_Number__c, 
                             (select Kit_ID__c, Kit_Order_Status__c, Accessioning_Status__c, Type__c, Sample_Status__c

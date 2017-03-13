@@ -64,6 +64,10 @@
                 <behavior>Readonly</behavior>
                 <field>Delivery_Mode__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsCancellationAllowed__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>

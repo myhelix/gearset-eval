@@ -23,6 +23,10 @@
                 <behavior>Readonly</behavior>
                 <field>Type__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Order_Product_Status__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -35,11 +39,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>UnitPrice</field>
+                <field>Quantity</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Quantity</field>
+                <field>UnitPrice</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Total_Amount_Refunded__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Net_Amount__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -136,11 +148,23 @@
                 <behavior>Readonly</behavior>
                 <field>Resend_Original_Kit__c</field>
             </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Kit_Resend_Reason__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Shipping_Handling_Amount__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Kit_Order_Status_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>IsCancellable__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -162,6 +186,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Last_Accessioning_Scan__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Previous_Accessioning_Status__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -395,6 +423,14 @@
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
     <multilineLayoutFields>Quantity</multilineLayoutFields>
     <multilineLayoutFields>ProductCode</multilineLayoutFields>
+    <relatedLists>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Order_Event__c</fields>
+        <fields>Order_Event_Type__c</fields>
+        <fields>Refund_Amount__c</fields>
+        <relatedList>Order_Event_Item__c.Order_Product__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
